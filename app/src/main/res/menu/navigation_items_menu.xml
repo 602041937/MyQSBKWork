@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_qiushi"
+            android:icon="@mipmap/ic_qiushi_select"
+            android:title="糗事" />
+        <item
+            android:id="@+id/action_qiuyouquan"
+            android:icon="@mipmap/ic_qiuyoucircle_select"
+            android:title="糗友圈" />
+        <item
+            android:id="@+id/action_faxian"
+            android:icon="@mipmap/ic_nearby_select"
+            android:title="发现" />
+        <item
+            android:id="@+id/action_xiaozhitiao"
+            android:icon="@mipmap/ic_message_select"
+            android:title="小纸条" />
+        <item
+            android:id="@+id/action_wo"
+            android:icon="@mipmap/ic_mine_select"
+            android:title="我" />
+    </group>
+    <item android:title="小分组">
+        <menu>
+            <item
+                android:id="@+id/action_setting"
+                android:title="设置" />
+            <item
+                android:id="@+id/action_me"
+                android:title="我的" />
+            <item
+                android:id="@+id/aciton_quit"
+                android:title="退出" />
+
+        </menu>
+    </item>
+</menu>
